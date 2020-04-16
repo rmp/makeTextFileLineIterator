@@ -1,0 +1,20 @@
+{
+  "name": "maketextfilelineiterator",
+  "version": "1.0.0",
+  "description": "fetch-based remote text file line iterator",
+  "repository": "https://github.com/rmp/makeTextFileLineIterator.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "watch": "watch 'npm run build' ./src"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/rollup": "^0.54.0",
+    "@types/watch": "^1.0.1",
+    "rollup": "^2.6.1",
+    "watch": "^1.0.2"
+  }
+}
