@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "fetch-based remote text file line iterator",
   "repository": "https://github.com/rmp/makeTextFileLineIterator.git",
-  "main": "dist/index.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
